@@ -112,8 +112,7 @@ function crTask(obj){
 
     if (!targChild){
         console.log("элементов нет")
-        target.insertAdjacentHTML("afterbegin", newTask)
-        
+        target.insertAdjacentHTML("afterbegin", newTask)  
            
     }
     else if(targChild){
@@ -131,7 +130,7 @@ function crTask(obj){
     }
 
     
-    
+
 }
 
 let but = document.getElementById("butt01")
